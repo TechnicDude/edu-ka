@@ -1,0 +1,33 @@
+class APIURL {
+  static const String Roots = "http://127.0.0.1:8000";
+  static const String ROOT = "http://imp-lms.impdevops.com";
+  static const String HOME = "$ROOT/api";
+  static const String registration = "$HOME/register";
+  static const String login = "$HOME/login";
+  static const String registerfcmtoken = "$HOME/fac-token";
+  static const String forgetverifyotp = "$HOME/forgot_password";
+  static const String verifyforgot = "$HOME/verify_forgot";
+  //static const String FORGETPASSWORD = "$HOME/forgot_password";
+  // static const String SETNEWPASSWORD = "$HOME/change-password";
+  static const String forgetpassword = "$HOME/forgot_password";
+  static const String verifyotp = "$HOME/verifyRegister";
+  static const String socialmediaLOGIN = "$HOME/loginwithsocialmedia";
+  static const String googlesocialmediaLOGIN = "$HOME/login-with-google";
+  static const String facebooksocialmediaLOGIN = "$HOME/login-with-facebook";
+  static const String applesocialmediaLOGIN = "$HOME/login-with-apple";
+  static const String changepassword = "$HOME/change_password";
+  static const String imageurl = "$ROOT/store/users/";
+  static const String bannerimage = "$ROOT/";
+  static const String imageurls = "$ROOT/store/";
+  static const String myimageurl = "$ROOT/store/1/default_images/";
+  static const String userprofile = "$HOME/show_profile";
+  static const String userprofileupdate = "$HOME/update_profile";
+  static const String coursecategory = "$HOME/categoryList/";
+  static const String courseList = "$HOME/courseList/";
+  static const String bannerurl = "$ROOT/api/bannerList/";
+  static const String popularcourse = "$ROOT/api/popularcourse/";
+  static const String autherlist = "$ROOT/api/authorList/";
+  static const String favorite = "$ROOT/api/list_favorite/";
+  static const String DeleteFav = "$ROOT/api/list_favorite";
+  static const String allcourselist = "$ROOT/api/courseList/";
+}
